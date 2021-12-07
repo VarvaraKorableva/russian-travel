@@ -1,0 +1,6 @@
+.header__lang-link {
+    min-width: 30px;
+    min-height: 28px;
+    color: #fff;
+    align-self: flex-end;
+}

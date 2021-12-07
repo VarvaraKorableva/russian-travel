@@ -1,0 +1,9 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 148px;
+    margin-right: 148px;*/
+    margin: auto;
+    width: 984px;
+    border: 2px solid orange;
+}
