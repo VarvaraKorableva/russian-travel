@@ -26,8 +26,8 @@
     .place__paragraph-container {
         min-width: 320px;
         margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 32px;
+       /* margin-right: 16px;
+        margin-top: 32px;*/
         margin-bottom: 0;
     }
     } 
