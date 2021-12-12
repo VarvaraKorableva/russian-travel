@@ -1,0 +1,33 @@
+.place__paragraph-container {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    font-style: normal;
+}
+
+@media screen and (max-width: 1000px) {
+.place__paragraph-container {
+    font-size: 16px;
+    line-height: 26px;
+}
+} 
+
+@media screen and (max-width: 675px) {
+    .place__paragraph-container {
+        min-width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    }
+
+@media screen and (max-width: 640px) {
+    .place__paragraph-container {
+        min-width: 320px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+    } 

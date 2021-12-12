@@ -1,3 +1,4 @@
 .photo-grid__item {
-    gap: 16px 16px;
+    width: 100%;
+    object-fit: cover;
 }

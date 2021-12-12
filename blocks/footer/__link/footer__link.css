@@ -1,4 +1,24 @@
 .footer__link {
     text-decoration: none;
     color: #fff;
+    margin-right: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-left: 0;
+        margin-right: 0; 
+        margin-bottom: 32px;
+    }
 }

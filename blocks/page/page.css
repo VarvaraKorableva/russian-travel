@@ -1,7 +1,17 @@
 .page {
     background-color: #2A2C2F;
-    width: 1280px;
+    max-width: 1280px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
     margin: auto;
     color: #fff;
-    
+    box-sizing: content-box;
+    font-family: "Inter", "Arial", sans-serif;
+    margin-bottom: 0;
 }
+ 
+
+

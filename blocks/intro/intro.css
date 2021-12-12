@@ -1,6 +1,37 @@
 .intro {
-    border: 2px solid yellow;
     margin-left: 148px;
     margin-top: 92px;
-    width: 690px;
+    margin-bottom: 92px;
+    margin-right: 442px;
+    min-width: 690px;
+    min-height: 429px;
+}
+
+@media screen and (max-width: 1050px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        min-height: 429px;
+        min-width: 720px;
+        margin-top: 88px;
+        margin-bottom: 88px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .intro {
+        min-width: 288px;
+        max-height: 754px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
 }
