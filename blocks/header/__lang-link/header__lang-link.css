@@ -8,7 +8,13 @@
     line-height: 28px;
     font-weight: 400px;
     font-style: normal;
+    opacity: 1;
+    transition: 0.3s ease;
 }
+.header__lang-link:hover {
+    opacity: 0.5;
+    transition: 0.3s ease;
+}    
 
 .header__lang-link:active {
     text-decoration: underline;
