@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin-right: 148px;
     margin-left: 148px;
+    
 
 }
 
@@ -24,7 +25,8 @@
     .lead {
         min-height: 862px;
         min-width: 768px;
-        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -32,7 +34,6 @@
     .lead {
         min-width: 320px;
         min-height: 406px;
-        margin: 0;
     }
     
 }

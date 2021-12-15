@@ -7,6 +7,7 @@
     max-height: 152px;
     min-height: 76px;
     max-width: 460px;
+    align-self: end;
 }
 
 @media screen and (max-width: 1000px) {
