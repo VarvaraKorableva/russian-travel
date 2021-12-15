@@ -4,9 +4,10 @@
     min-height:  584px;
     margin-bottom: 80px;
     display: grid;
-    grid-template-columns: fit-content(76px) 1fr;
-    grid-template-rows: 1fr fit-content(46px);
-    
+    /*grid-template-columns: fit-content(76px) 1fr;
+    grid-template-rows: 1fr fit-content(46px);*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     column-gap: 40px;
     row-gap: 48px;
 }
@@ -26,8 +27,10 @@
     .place {
         margin-bottom: 73px;
         min-height: 434px;
-        grid-template-columns: 340px 1fr;
-        grid-template-rows: fit-content(92px) 1fr;
+       /* grid-template-columns: 340px 1fr;
+        grid-template-rows: fit-content(92px) 1fr;*/
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
         column-gap: 28px;
         row-gap:48px;
     }
