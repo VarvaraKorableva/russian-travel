@@ -18,8 +18,6 @@
 
 @media screen and (max-width: 1000px) {
     .places {
-        margin-left: 48px;
-        margin-right: 48px;
         margin-top: 88px;
         margin-bottom: 90px;
         min-height: 1000px;
