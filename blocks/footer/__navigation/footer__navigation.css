@@ -1,9 +1,9 @@
-.footer__column {
+.footer__navigation {
     display: flex;
 }
 
 @media screen and (max-width: 600px) {
-    .footer__column {
+    .footer__navigation {
         flex-direction: column;
         margin-bottom: 48px;
         min-width: 288px;

@@ -1,5 +1,11 @@
 .header__lang-links {
-    min-height: 28px;
     align-self: flex-end;
+    padding-bottom: 6px;
+}
 
+@media screen and (max-width: 350px) {
+    .header__lang-links {
+        padding-bottom: 8px;
+    }
+    
 }
